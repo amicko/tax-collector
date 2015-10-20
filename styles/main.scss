@@ -1,0 +1,36 @@
+h1 {
+	text-align: center;
+}
+
+#form {
+	box-sizing: border-box;
+	width: 36em;
+	background-color: lightgrey;
+	height: 15em;
+	padding-top: 3em;
+	margin: 0 auto;
+
+	label {
+		display: block;
+		margin: 0 9em;
+
+		input {
+			display: block;
+			width: 15em;
+			height: 1em;
+			font-size: 1.2em;
+		}
+	}
+
+	button {
+		display: block;
+		margin: 3em auto;
+		height: 3em;
+		width: 20em;
+	}
+}
+
+.results {
+	margin-top: 5em;
+	text-align: center;
+}
